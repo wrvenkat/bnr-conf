@@ -11,7 +11,7 @@ This is the config file that is consumed by bnr's bnr script.
   
   There are 4 columns in this file. Each column *should* hold a value or have ! to indicate no value.
   1. Program Name - This is the name that identifies the software. Values for this column that begin with `$def$` in a `-` separated value indicate that this line needs to be processed irrespective of whether a matching value is present in the provided install log file.  
-     Example: The [[Sample Entry 2]].	 
+     Example: The [[Sample Entry 2]https://github.com/wrvenkat/bnr-conf#sample-entry-2] line will be processed always.
   2. Backup File Name - This is the name that will be used to store the dotfile contents.
   3. Properties - Colon (:) separated tuple, that identifies the following properties for the entry,
 	 1. First flag - if 1, indicates whether super user access required to copy the file into the destination.
