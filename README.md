@@ -17,7 +17,7 @@ This is the config file that is consumed by bnr's bnr script.
 	 1. First flag - if 1, indicates whether super user access is required to copy the file into the destination.
 	 2. Second flag - if 1, indicates whether there is a separate script that needs to be run to create or restore a backup. The corresponding scripts are located in the [config_scripts](https://github.com/wrvenkat/config_scripts) directory and are identified by appending `-bnr.sh` to the Program Name column value.  
 		Example: The [Sample Entry 2](https://github.com/wrvenkat/bnr-conf#sample-entry-2) line indicates that it requires a script to be executed. This script is identified by the name `$def$-unity-bnr.sh` inside the config_scripts directory.
-  4. Source File Name - The destination path for the dotfile. Values specified within double quotes are taken literally. Double quotes need to be escaped with a backslash. The bnr script performs tilde-expansion on the value for this column.  
+  4. Source File Name - The destination path for the dotfile. Values specified within double quotes are taken literally. Double quotes need to be escaped with a backslash. The bnr script performs (tilde-expansion)[https://github.com/wrvenkat/bash_helper_scripts#safe_tilde_expansionsh] on the value for this column.  
 	 Example: The [Sample Entry 1](https://github.com/wrvenkat/bnr-conf#sample-entry-1) refers to the dotfile location with a tilde prefixed file path.
   
   Generally, any text enclosed within double quotes are taken literally.
