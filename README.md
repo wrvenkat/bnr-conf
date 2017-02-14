@@ -20,7 +20,7 @@ This is the config file that is consumed by bnr's bnr script.
   4. Source File Name - The destination path for the dotfile. Values specified within double quotes are taken literallya and double quotes need to be escaped with a backslash. The bnr script performs [tilde-expansion](https://github.com/wrvenkat/bash_helper_scripts#safe_tilde_expansionsh) on the value for this column. The values are similar to regular bash file path.  
 	 Example: The [Sample Entry 1](https://github.com/wrvenkat/bnr-conf#sample-entry-1) refers to the dotfile location with a tilde-prefixed file path.
   
-  Generally, any text enclosed within double quotes are taken literally.
+Generally, any text enclosed within double quotes are taken literally.
 
 ## Getting Started
   * You are encouraged to customize the config file according to your needs.
