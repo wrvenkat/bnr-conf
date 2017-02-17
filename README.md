@@ -30,8 +30,7 @@ Generally, any text enclosed within double quotes are taken literally.
   * If you want to contribute, you can do so by contributing entries alone or if the backup and restore requires a script, the entry and the corresponding script. For more information on this and on how bnr calls the config scripts, please see [config_scripts](https://github.com/wrvenkat/config_scripts).
 
 ## Versioning ##
-  * Stable versions are organized along the lines of Ubuntu version numbers - 14.04, 16.04 etc.
-  * Master branch is the main development branch.
+  * Master branch is the main development branch and the head should have the stable version.
 
 ## LICENSE
 
